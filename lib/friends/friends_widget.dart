@@ -412,7 +412,7 @@ class _FriendsWidgetState extends State<FriendsWidget> {
                             EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 20.0),
                         child: Container(
                           width: MediaQuery.sizeOf(context).width * 0.92,
-                          height: 350.0,
+                          height: 374.0,
                           decoration: BoxDecoration(
                             color: FlutterFlowTheme.of(context)
                                 .secondaryBackground,

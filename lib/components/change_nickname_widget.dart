@@ -93,9 +93,6 @@ class _ChangeNicknameWidgetState extends State<ChangeNicknameWidget>
           Padding(
             padding: EdgeInsetsDirectional.fromSTEB(16.0, 2.0, 16.0, 16.0),
             child: Container(
-              constraints: BoxConstraints(
-                maxWidth: 670.0,
-              ),
               decoration: BoxDecoration(
                 color: FlutterFlowTheme.of(context).secondaryBackground,
                 boxShadow: [
@@ -264,7 +261,7 @@ class _ChangeNicknameWidgetState extends State<ChangeNicknameWidget>
 
                               setState(() {});
                             },
-                            text: '이걸로 할래',
+                            text: '결정!',
                             options: FFButtonOptions(
                               height: 40.0,
                               padding: EdgeInsetsDirectional.fromSTEB(

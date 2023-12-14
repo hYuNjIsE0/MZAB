@@ -175,7 +175,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                             ),
                           ),
                           Text(
-                            '오늘도 많이 쳐먹으셨네요!',
+                            '많이도 쓰셨네요!',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -220,10 +220,13 @@ class _HomeWidgetState extends State<HomeWidget> {
                                           ),
                                     ),
                                     TextSpan(
-                                      text: getJsonField(
-                                        homeGetAccountBookResponse.jsonBody,
-                                        r'''$.data.loss''',
-                                      ).toString(),
+                                      text: valueOrDefault<String>(
+                                        getJsonField(
+                                          homeGetAccountBookResponse.jsonBody,
+                                          r'''$.data.loss''',
+                                        ).toString(),
+                                        '0',
+                                      ),
                                       style: TextStyle(
                                         color:
                                             FlutterFlowTheme.of(context).error,
@@ -272,10 +275,13 @@ class _HomeWidgetState extends State<HomeWidget> {
                                           ),
                                     ),
                                     TextSpan(
-                                      text: getJsonField(
-                                        homeGetAccountBookResponse.jsonBody,
-                                        r'''$.data.gain''',
-                                      ).toString(),
+                                      text: valueOrDefault<String>(
+                                        getJsonField(
+                                          homeGetAccountBookResponse.jsonBody,
+                                          r'''$.data.gain''',
+                                        ).toString(),
+                                        '0',
+                                      ),
                                       style: TextStyle(),
                                     )
                                   ],
@@ -466,7 +472,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                                 0.0, 0.0, 0.0, 10.0),
                             child: Container(
                               width: MediaQuery.sizeOf(context).width * 0.92,
-                              height: 339.0,
+                              height: 352.0,
                               decoration: BoxDecoration(
                                 color: FlutterFlowTheme.of(context)
                                     .secondaryBackground,
@@ -765,6 +771,10 @@ class _HomeWidgetState extends State<HomeWidget> {
                                               if ((_model.writeAccountBook
                                                       ?.succeeded ??
                                                   true)) {
+                                                setState(() {
+                                                  FFAppState()
+                                                      .WriteAccountBook = false;
+                                                });
                                                 setState(() {
                                                   _model.homereload = false;
                                                 });

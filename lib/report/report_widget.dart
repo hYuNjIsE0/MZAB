@@ -131,7 +131,7 @@ class _ReportWidgetState extends State<ReportWidget> {
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Outfit',
-                                    fontSize: 20.0,
+                                    fontSize: 25.0,
                                     fontWeight: FontWeight.bold,
                                   ),
                         ),
@@ -308,8 +308,15 @@ class _ReportWidgetState extends State<ReportWidget> {
                         Align(
                           alignment: AlignmentDirectional(0.00, 0.00),
                           child: Text(
-                            ' ',
-                            style: FlutterFlowTheme.of(context).bodyMedium,
+                            ' +₩600000',
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  fontFamily: 'Outfit',
+                                  color: FlutterFlowTheme.of(context).info,
+                                  fontSize: 10.0,
+                                  fontWeight: FontWeight.bold,
+                                ),
                           ),
                         ),
                       ],
@@ -330,8 +337,15 @@ class _ReportWidgetState extends State<ReportWidget> {
                         Align(
                           alignment: AlignmentDirectional(0.00, 0.00),
                           child: Text(
-                            ' ',
-                            style: FlutterFlowTheme.of(context).bodyMedium,
+                            ' -₩56000',
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  fontFamily: 'Outfit',
+                                  color: FlutterFlowTheme.of(context).error,
+                                  fontSize: 12.0,
+                                  fontWeight: FontWeight.bold,
+                                ),
                           ),
                         ),
                         Align(
@@ -423,8 +437,15 @@ class _ReportWidgetState extends State<ReportWidget> {
                         Align(
                           alignment: AlignmentDirectional(0.00, 0.00),
                           child: Text(
-                            ' ',
-                            style: FlutterFlowTheme.of(context).bodyMedium,
+                            '  -₩27500',
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  fontFamily: 'Outfit',
+                                  color: FlutterFlowTheme.of(context).error,
+                                  fontSize: 12.0,
+                                  fontWeight: FontWeight.bold,
+                                ),
                           ),
                         ),
                         Align(
@@ -481,8 +502,15 @@ class _ReportWidgetState extends State<ReportWidget> {
                         Align(
                           alignment: AlignmentDirectional(0.00, 0.00),
                           child: Text(
-                            ' ',
-                            style: FlutterFlowTheme.of(context).bodyMedium,
+                            '  -₩30000',
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  fontFamily: 'Outfit',
+                                  color: FlutterFlowTheme.of(context).error,
+                                  fontSize: 11.0,
+                                  fontWeight: FontWeight.bold,
+                                ),
                           ),
                         ),
                         Align(
@@ -597,8 +625,15 @@ class _ReportWidgetState extends State<ReportWidget> {
                         Align(
                           alignment: AlignmentDirectional(0.00, 0.00),
                           child: Text(
-                            ' ',
-                            style: FlutterFlowTheme.of(context).bodyMedium,
+                            '  -₩5100',
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  fontFamily: 'Outfit',
+                                  color: FlutterFlowTheme.of(context).error,
+                                  fontSize: 13.0,
+                                  fontWeight: FontWeight.bold,
+                                ),
                           ),
                         ),
                         Align(
@@ -690,8 +725,15 @@ class _ReportWidgetState extends State<ReportWidget> {
                         Align(
                           alignment: AlignmentDirectional(0.00, 0.00),
                           child: Text(
-                            ' ',
-                            style: FlutterFlowTheme.of(context).bodyMedium,
+                            ' -₩578000',
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  fontFamily: 'Outfit',
+                                  color: FlutterFlowTheme.of(context).error,
+                                  fontSize: 10.0,
+                                  fontWeight: FontWeight.bold,
+                                ),
                           ),
                         ),
                         Align(
@@ -784,8 +826,15 @@ class _ReportWidgetState extends State<ReportWidget> {
                         Align(
                           alignment: AlignmentDirectional(0.00, 0.00),
                           child: Text(
-                            ' ',
-                            style: FlutterFlowTheme.of(context).bodyMedium,
+                            ' +₩220000',
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  fontFamily: 'Outfit',
+                                  color: FlutterFlowTheme.of(context).info,
+                                  fontSize: 10.0,
+                                  fontWeight: FontWeight.bold,
+                                ),
                           ),
                         ),
                       ],
@@ -928,8 +977,15 @@ class _ReportWidgetState extends State<ReportWidget> {
                         Align(
                           alignment: AlignmentDirectional(0.00, 0.00),
                           child: Text(
-                            ' ',
-                            style: FlutterFlowTheme.of(context).bodyMedium,
+                            ' -₩189000',
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  fontFamily: 'Outfit',
+                                  color: FlutterFlowTheme.of(context).error,
+                                  fontSize: 11.0,
+                                  fontWeight: FontWeight.bold,
+                                ),
                           ),
                         ),
                         Align(
@@ -1086,8 +1142,15 @@ class _ReportWidgetState extends State<ReportWidget> {
                         Align(
                           alignment: AlignmentDirectional(0.00, 0.00),
                           child: Text(
-                            ' ',
-                            style: FlutterFlowTheme.of(context).bodyMedium,
+                            ' +₩250000',
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  fontFamily: 'Outfit',
+                                  color: FlutterFlowTheme.of(context).info,
+                                  fontSize: 10.0,
+                                  fontWeight: FontWeight.bold,
+                                ),
                           ),
                         ),
                       ],
@@ -1240,15 +1303,175 @@ class _ReportWidgetState extends State<ReportWidget> {
                   ),
                 ],
               ),
+              Container(
+                width: 350.0,
+                decoration: BoxDecoration(
+                  color: Color(0x8195A1AC),
+                  image: DecorationImage(
+                    fit: BoxFit.cover,
+                    image: Image.network(
+                      'https://img.freepik.com/premium-photo/vivid-gradient-rainbow-color-vertical-striped-abstract-background_76000-5656.jpg?size=626&ext=jpg',
+                    ).image,
+                  ),
+                  borderRadius: BorderRadius.circular(20.0),
+                ),
+                child: Column(
+                  mainAxisSize: MainAxisSize.max,
+                  children: [
+                    Align(
+                      alignment: AlignmentDirectional(0.00, 0.00),
+                      child: Padding(
+                        padding: EdgeInsetsDirectional.fromSTEB(
+                            0.0, 10.0, 0.0, 10.0),
+                        child: Text(
+                          '이번달 요약',
+                          textAlign: TextAlign.center,
+                          style: FlutterFlowTheme.of(context)
+                              .bodyMedium
+                              .override(
+                                fontFamily: 'Outfit',
+                                color:
+                                    FlutterFlowTheme.of(context).primaryBtnText,
+                                fontSize: 20.0,
+                                fontWeight: FontWeight.bold,
+                              ),
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding:
+                          EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 10.0),
+                      child: Container(
+                        width: 300.0,
+                        height: 50.0,
+                        decoration: BoxDecoration(
+                          color:
+                              FlutterFlowTheme.of(context).secondaryBackground,
+                          borderRadius: BorderRadius.circular(15.0),
+                        ),
+                        child: Align(
+                          alignment: AlignmentDirectional(0.00, 0.00),
+                          child: RichText(
+                            textScaleFactor:
+                                MediaQuery.of(context).textScaleFactor,
+                            text: TextSpan(
+                              children: [
+                                TextSpan(
+                                  text: '이번달 소비: ',
+                                  style: FlutterFlowTheme.of(context)
+                                      .bodyMedium
+                                      .override(
+                                        fontFamily: 'Outfit',
+                                        color: FlutterFlowTheme.of(context)
+                                            .primary,
+                                        fontSize: 20.0,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                ),
+                                TextSpan(
+                                  text: '₩885,600',
+                                  style: TextStyle(
+                                    color: FlutterFlowTheme.of(context).error,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 20.0,
+                                  ),
+                                )
+                              ],
+                              style: FlutterFlowTheme.of(context).bodyMedium,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding:
+                          EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 10.0),
+                      child: Container(
+                        width: 300.0,
+                        height: 50.0,
+                        decoration: BoxDecoration(
+                          color:
+                              FlutterFlowTheme.of(context).secondaryBackground,
+                          borderRadius: BorderRadius.circular(15.0),
+                        ),
+                        child: Align(
+                          alignment: AlignmentDirectional(0.00, 0.00),
+                          child: Text(
+                            '이번달 수입:  ₩1,070,000',
+                            textAlign: TextAlign.center,
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  fontFamily: 'Outfit',
+                                  fontSize: 20.0,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                          ),
+                        ),
+                      ),
+                    ),
+                    ClipRRect(
+                      borderRadius: BorderRadius.circular(8.0),
+                      child: Image.network(
+                        'https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-select-cell-purple-202203?wid=940&hei=1112&fmt=png-alpha&.v=1645066504390',
+                        width: 150.0,
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                    Padding(
+                      padding:
+                          EdgeInsetsDirectional.fromSTEB(0.0, 10.0, 0.0, 15.0),
+                      child: Container(
+                        width: 300.0,
+                        height: 100.0,
+                        decoration: BoxDecoration(
+                          color:
+                              FlutterFlowTheme.of(context).secondaryBackground,
+                          borderRadius: BorderRadius.circular(15.0),
+                        ),
+                        child: Align(
+                          alignment: AlignmentDirectional(0.00, 0.00),
+                          child: Text(
+                            '이번달에 아이패드 한 개를\n날리셨군요!',
+                            textAlign: TextAlign.center,
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  fontFamily: 'Outfit',
+                                  fontSize: 20.0,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
               Align(
                 alignment: AlignmentDirectional(0.00, 0.00),
                 child: Text(
                   '카테고리별 지출',
                   style: FlutterFlowTheme.of(context).bodyMedium.override(
                         fontFamily: 'Outfit',
-                        fontSize: 18.0,
+                        fontSize: 25.0,
                         fontWeight: FontWeight.bold,
                       ),
+                ),
+              ),
+              ClipRRect(
+                borderRadius: BorderRadius.circular(8.0),
+                child: Image.network(
+                  'https://mzab-bucket.s3.ap-northeast-2.amazonaws.com/piechart.png',
+                  width: 300.0,
+                  fit: BoxFit.cover,
+                ),
+              ),
+              ClipRRect(
+                borderRadius: BorderRadius.circular(8.0),
+                child: Image.network(
+                  '',
+                  fit: BoxFit.cover,
                 ),
               ),
               RichText(
@@ -1282,7 +1505,10 @@ class _ReportWidgetState extends State<ReportWidget> {
                       ),
                     )
                   ],
-                  style: FlutterFlowTheme.of(context).bodyMedium,
+                  style: FlutterFlowTheme.of(context).bodyMedium.override(
+                        fontFamily: 'Outfit',
+                        fontSize: 25.0,
+                      ),
                 ),
                 textAlign: TextAlign.center,
               ),

@@ -218,28 +218,13 @@ class _QuizWidgetState extends State<QuizWidget> {
                   ),
                   if (FFAppState().submitQuiz == true)
                     Padding(
-                      padding:
-                          EdgeInsetsDirectional.fromSTEB(25.0, 0.0, 25.0, 0.0),
+                      padding: EdgeInsetsDirectional.fromSTEB(
+                          25.0, 25.0, 25.0, 25.0),
                       child: Column(
                         mainAxisSize: MainAxisSize.max,
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Row(
-                            mainAxisSize: MainAxisSize.max,
-                            children: [
-                              Icon(
-                                Icons.circle_outlined,
-                                color: FlutterFlowTheme.of(context).info,
-                                size: 50.0,
-                              ),
-                              Icon(
-                                Icons.close_sharp,
-                                color: FlutterFlowTheme.of(context).error,
-                                size: 50.0,
-                              ),
-                            ],
-                          ),
                           Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 10.0, 0.0, 0.0, 0.0),
