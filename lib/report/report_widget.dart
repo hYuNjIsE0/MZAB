@@ -1467,13 +1467,6 @@ class _ReportWidgetState extends State<ReportWidget> {
                   fit: BoxFit.cover,
                 ),
               ),
-              ClipRRect(
-                borderRadius: BorderRadius.circular(8.0),
-                child: Image.network(
-                  '',
-                  fit: BoxFit.cover,
-                ),
-              ),
               RichText(
                 textScaleFactor: MediaQuery.of(context).textScaleFactor,
                 text: TextSpan(
